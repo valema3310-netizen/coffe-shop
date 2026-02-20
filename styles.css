@@ -1,0 +1,24 @@
+/* resetear los estilos del navegador*/
+*{ /* el asterisco con la llave es para que se cambie todo lo que esta entre las llaves*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    color: #444;
+    background-color: #f9f7f3;
+}
+h1,h2,h3, .logo{  /* las h son los titulos */
+    font-family: Playfair display, serif;
+    font-weight: 900; /* weight es para negritas */
+    color: #2a2a2a;
+}
+
+a { /* con la a se le habla a todos los textos */
+    text-decoration: none; /*esto quita el subrayado de los links*/
+    color: #884513;
+}
