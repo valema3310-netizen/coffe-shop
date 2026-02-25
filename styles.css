@@ -57,7 +57,24 @@ a { /* con la a se le habla a todos los textos */
 }
 
 .main-nav a {
-    font-weight: 700;
-     
+    font-weight: 700; 
+}
 
+#hero { /*los ids de llaman con # y las clases se llaman con .*/
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://picsum.photos/seed/coffe-shop/1600/900');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 150px 0;
+    text-align: center;
+}  
+#hero h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+#hero p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
