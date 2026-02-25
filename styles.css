@@ -22,3 +22,10 @@ a { /* con la a se le habla a todos los textos */
     text-decoration: none; /*esto quita el subrayado de los links*/
     color: #884513;
 }
+
+.container{
+    width: 90%;
+    max-width: 1100%;
+    margin-right: auto;
+    margin-left: auto;
+}
