@@ -12,6 +12,7 @@ body{
     color: #444;
     background-color: #f9f7f3;
 }
+
 h1,h2,h3, .logo{  /* las h son los titulos */
     font-family: Playfair display, serif;
     font-weight: 900; /* weight es para negritas */
@@ -28,4 +29,35 @@ a { /* con la a se le habla a todos los textos */
     max-width: 1100%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.site-header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header{
+    padding:1rem 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo{
+    font-size: 2.5rem;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.main-nav a {
+    font-weight: 700;
+     
+
 }
